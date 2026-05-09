@@ -20,7 +20,7 @@ steps:
            '--parameters=project_id=$PROJECT_ID,playback_pubsub_subscription_name=$_PLAYBACK_PUBSUB_SUBSCRIPTION_NAME,engagement_pubsub_subscription_name=$_ENGAGEMENT_PUBSUB_SUBSCRIPTION_NAME,quality_pubsub_subscription_name=$_QUALITY_PUBSUB_SUBSCRIPTION_NAME,notifications_pubsub_topic=$_NOTIFICATIONS_PUBSUB_TOPIC_NAME,firestore_collection=$_FIRESTORE_COLLECTION_NAME,bigquery_dataset=$_BIGQUERY_DATASET,user_bigquery_table=$_USER_BIGQUERY_TABLE,episode_bigquery_table=$_EPISODE_BIGQUERY_TABLE',
            '--region=$_REGION_ID',
            '--max-workers=1',
-          #  '--update'
+           '--update'
     ]
     waitFor: ['Build Dataflow Flex Template']
 options:
