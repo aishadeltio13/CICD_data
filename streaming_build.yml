@@ -34,10 +34,10 @@ substitutions:
   _ARTIFACT_REGISTRY_IMAGE_NAME: artifact-registry-image-name
   _DATAFLOW_PYTHON_FILE_PATH: edem_realtime_recommendation_engine.py
   _DATAFLOW_REQUIREMENTS_FILE_PATH: requirements.txt
-  _PLAYBACK_PUBSUB_SUBSCRIPTION_NAME: playback_topic
-  _ENGAGEMENT_PUBSUB_SUBSCRIPTION_NAME: engagement_topic
-  _QUALITY_PUBSUB_SUBSCRIPTION_NAME: quality_topic
-  _NOTIFICATIONS_PUBSUB_TOPIC_NAME: notifications_topic
+  _PLAYBACK_PUBSUB_SUBSCRIPTION_NAME: playback_topic-sub
+  _ENGAGEMENT_PUBSUB_SUBSCRIPTION_NAME: engagement_topic-sub
+  _QUALITY_PUBSUB_SUBSCRIPTION_NAME: quality_topic-sub
+  _NOTIFICATIONS_PUBSUB_TOPIC_NAME: notifications_topic-sub
   _FIRESTORE_COLLECTION_NAME: firestore-collection-name
   _BIGQUERY_DATASET: bigquery_dataset_name
   _USER_BIGQUERY_TABLE: user_bigquery_table
